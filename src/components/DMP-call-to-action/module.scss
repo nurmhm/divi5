@@ -1,0 +1,27 @@
+// This style will render on Front-End and Visual Builder.
+
+.cta_module {
+    padding: 30px;
+    background-color: #7a121b;
+    
+    &__inner {
+        display: inline;
+        position: relative;
+    }
+    &__content_container {
+        max-width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-size: 21px;
+        line-height: 1em;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+}
